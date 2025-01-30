@@ -25,7 +25,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor:"rgb(247, 204, 204)",
+    backgroundColor: 'rgb(247, 204, 204)',
     alignItems: "center",
     justifyContent: "center",
   },
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     height: 400,
     resizeMode: "cover",
     borderWidth: 5,
-    borderColor: "rgb(136, 35, 82)"
+    borderColor: 'rgb(136, 35, 82)'
   },
   infoContainer: {
     flex: 2,
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontStyle: "italic",
     marginBottom: 10,
-    color: "rgb(136, 35, 82)"
+    color: 'rgb(136, 35, 82)',
   }
 
 });
